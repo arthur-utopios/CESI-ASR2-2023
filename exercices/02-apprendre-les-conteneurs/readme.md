@@ -132,8 +132,8 @@ docker exec -it nginx-web /bin/sh
 
 ```sh
 cd /usr/share/nginx/html
-apt upgrade
 apt update
+apt upgrade
 apt install nano
 nano index.html
 ```
@@ -162,8 +162,8 @@ docker exec -it apache-web /bin/sh
 
 ```sh
 cd /usr/local/apache2/htdocs
-apt upgrade
 apt update
+apt upgrade
 apt install nano
 nano index.html
 ```
